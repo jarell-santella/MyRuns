@@ -41,3 +41,5 @@ the app.
 ## Potential improvements
 
 A backend with a server or cloud services would be better (and more costly) so that the app can be installed/uninstall with all of the information still saved. Firebase is a cheap option for this.
+
+MVVM architectural pattern should have been used more. And the file structure for this project can be cleaned up and organized.
