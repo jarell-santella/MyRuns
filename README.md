@@ -29,6 +29,8 @@ This app uses settings that are stored locally with SharedPreferences. It will r
 
 ## Demo
 
+Warning: audio can be bad at the beginning. I think something may have been corrupted in the encoding at the start.
+
 https://github.com/jarell-santella/MyRuns/assets/50718474/f624d8a9-1f14-4ba7-a81a-dedb2a7f2889
 
 ## Potential improvements
