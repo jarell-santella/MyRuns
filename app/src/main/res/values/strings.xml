@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">MyRuns</string>
+    <string name="input_type">Input Type</string>
+    <string name="activity_type">Activity Type</string>
+    <string name="start">Start</string>
+    <string name="input_key">input_key</string>
+    <string name="activity_key">activity_key</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="datetime">Date and time</string>
+    <string name="datetime_key">datetime_key</string>
+    <string name="duration">Duration</string>
+    <string name="duration_hint">Duration in minutes (default: 0.0)</string>
+    <string name="duration_key">duration_key</string>
+    <string name="distance">Distance</string>
+    <string name="distance_hint">Distance in kilometers or miles (default: 0.0)</string>
+    <string name="distance_key">distance_key</string>
+    <string name="calories">Calories</string>
+    <string name="calories_hint">Calories in cals (default: 0.0)</string>
+    <string name="calories_key">calories_key</string>
+    <string name="heart_rate">Heart Rate</string>
+    <string name="heart_rate_hint">Heart rate in bpm (default: 0.0)</string>
+    <string name="heart_rate_key">heart_rate_key</string>
+    <string name="comment">Comment</string>
+    <string name="comment_hint">How did it go? Notes here.</string>
+    <string name="comment_key">comment_key</string>
+    <string name="avg_pace_key">avg_pace_key</string>
+    <string name="avg_speed_key">avg_speed_key</string>
+    <string name="cur_speed_key">cur_speed_key</string>
+    <string name="climb_key">climb_key</string>
+    <string name="location_list_key">location_list_key</string>
+
+    <string name="exercise_entry_id_key">exercise_entry_id_key</string>
+    <string name="exercise_entry_title">%1$s: %2$s, %3$s</string>
+    <string name="exercise_entry_details_mins_secs">%1$s, %2$d minute(s) %3$.3f second(s)</string>
+    <string name="exercise_entry_details_secs">%1$s, %2$.3f second(s)</string>
+
+    <string name="avg_speed_loading">Average speed: loading</string>
+    <string name="cur_speed_loading">Current speed: loading</string>
+    <string name="climb_loading">Climb: loading</string>
+    <string name="calories_loading">Calories: loading</string>
+    <string name="distance_loading">Distance: loading</string>
+    <string name="loading">LOADING</string>
+    <string name="map_not_finished_loading">Map not finished loading</string>
+
+    <string name="type_unknown">Type: Unknown</string>
+    <string name="cur_speed_na">Current speed: n/a</string>
+
+    <string name="back">Back</string>
+    <string name="delete">Delete</string>
+
+    <string name="toast_added">Entry #%1$d added</string>
+    <string name="toast_discarded">Entry discarded</string>
+    <string name="toast_deleted">Entry #%1$d deleted</string>
+    <string name="toast_permissions_declined">Permissions declined</string>
+
+    <string name="channel_id_key">channel_id_key</string>
+    <string name="channel_name">Recording Channel</string>
+    <string name="tracking_notification_text">App is tracking your location</string>
+    <string name="tracking_and_classifying_notification_text">App is tracking your location and classifying your activity</string>
+</resources>

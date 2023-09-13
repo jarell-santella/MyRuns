@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        android:title="@string/account_preferences">
+
+        <Preference
+            app:iconSpaceReserved="false"
+            android:key="@string/profile_key"
+            android:title="@string/profile_title"
+            android:summary="@string/profile_summary">
+            <intent
+                android:targetPackage="com.example.myruns"
+                android:targetClass="com.example.myruns.AccountPreferencesActivity"/>
+        </Preference>
+
+        <CheckBoxPreference
+            app:iconSpaceReserved="false"
+            android:key="@string/privacy_key"
+            android:title="@string/privacy_title"
+            android:summary="@string/privacy_summary"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        android:title="@string/additional_settings">
+
+        <ListPreference
+            app:iconSpaceReserved="false"
+            android:key="@string/units_key"
+            android:title="@string/units_title"
+            android:summary="@string/units_summary"
+            android:entries="@array/units_entries"
+            android:entryValues="@array/units_entries_values"
+            android:defaultValue="@string/units_default"/>
+
+        <EditTextPreference
+            app:iconSpaceReserved="false"
+            android:imeOptions="flagNoExtractUi"
+            android:key="@string/comments_key"
+            android:title="@string/comments_title"
+            android:summary="@string/comments_summary"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        android:title="@string/misc_settings">
+
+        <Preference
+            app:iconSpaceReserved="false"
+            android:key="@string/webpage_key"
+            android:title="@string/webpage_title"
+            android:summary="@string/webpage_link">
+
+            <intent
+                android:action="@string/webpage_action"
+                android:data="@string/webpage_link"/>
+
+        </Preference>
+
+    </PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>

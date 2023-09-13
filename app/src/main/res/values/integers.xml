@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="permission_request_code">0</integer>
+    <integer name="notification_id">1</integer>
+
+    <integer name="accelerometer_buffer_capacity">2048</integer>
+    <integer name="accelerometer_block_capacity">64</integer>
+</resources>
